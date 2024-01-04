@@ -1,0 +1,884 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  
+
+  <!-- Icon pada tab website -->
+  <link rel="website icon" type="png" href="image/upppnglogo.png">
+
+  <!-- Document Title -->
+  <title>Home | UPP</title>
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-light p-3 navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#logo">
+        <img src="image/logo.png" alt="" height="30" class="d-inline-block align-text-top">
+      </a>
+
+      <!-- Tombol toogle untuk tampilan responsif -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#tentangupp" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">TENTANG UPP</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#sejarah">Sejarah</a></li>
+              <li><a class="dropdown-item" href="#struktur">Struktur</a></li>
+              <li><a class="dropdown-item" href="#peraturanYayasan">Peraturan Yayasan dan Statuta</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#pendidikan" id="pendidikanDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">PENDIDIKAN</a>
+            <ul class="dropdown-menu" aria-labelledby="pendidikanDropdown">
+              <li><a class="dropdown-item" href="#programPendidikan">Program Pendidikan</a></li>
+              <li><a class="dropdown-item" href="#InformasiBeasiswa">Informasi Beasiswa</a></li>
+              <li><a class="dropdown-item" href="#KalenderAkademik">Kalender Akademik</a></li>
+              <li><a class="dropdown-item" href="#FasilitasKampus">Fasilitas Kampus</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#penelitian" id="penelitianDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">PENELITIAN</a>
+            <ul class="dropdown-menu" aria-labelledby="penelitianDropdown">
+              <li><a class="dropdown-item" href="#PortalJurnal">Portal Jurnal</a></li>
+              <li><a class="dropdown-item" href="#Seminar&Konferensi">Seminar dan Konferensi</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#pengabdian">PENGABDIAN</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="kerjasamaDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">KERJASAMA</a>
+            <ul class="dropdown-menu" aria-labelledby="kerjasamaDropdown">
+              <li><a class="dropdown-item" href="#KerjasamaNasional">Kerjasama Nasional</a></li>
+              <li><a class="dropdown-item" href="#KerjasamaInternasional">Kerjasama Internasional</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#Fakultas" id="fakultasDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">FAKULTAS</a>
+            <ul class="dropdown-menu" aria-labelledby="fakultasDropdown">
+              <li><a class="dropdown-item" href="#Teknik">Teknik</a></li>
+              <li><a class="dropdown-item" href="#Pertanian">Pertanian</a></li>
+              <li><a class="dropdown-item" href="#Ekonomi">Ekonomi</a></li>
+              <li><a class="dropdown-item" href="#Fkip">Keguruan dan Ilmu Pendidikan</a></li>
+              <li><a class="dropdown-item" href="#Hukum">Hukum</a></li>
+              <li><a class="dropdown-item" href="#Ilmukomputer">Ilmu Komputer</a></li>
+              <li><a class="dropdown-item" href="#Kesehatan">Ilmu Kesehatan</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#berita">BERITA</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#Layanan" id="layananDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">LAYANAN</a>
+            <ul class="dropdown-menu" aria-labelledby="layananDropdown">
+              <li><a class="dropdown-item" href="#LayananMahasiswa">Layanan Mahasiswa</a></li>
+              <li><a class="dropdown-item" href="#LayananAlumni">Layanan Alumni</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#Informasi">INFORMASI</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#search"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fa-solid fa-globe"></i><span> ID</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+              <a class="dropdown-item" href="#indonesia">Indonesia</a>
+              <a class="dropdown-item" href="#inggris">English</a>
+            </div>
+
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAVBAR -->
+
+  <!-- CAROUSEL -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/rektor.png" class="d-block w-100" alt="">
+
+      </div>
+      <div class="carousel-item">
+        <img src="image/ayokuliah.png" class="d-block w-100" alt="">
+      </div>
+
+      <div class="carousel-item">
+        <img src="image/dosen.png" class="d-block w-100" alt="">
+      </div>
+
+      <div class="carousel-item">
+        <img src="image/upp.png" class="d-block w-100" alt="">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- END CAROUSEL -->
+
+  <!-- WELCOME -->
+  <section id="welcome" class="py-5">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="display-4">SELAMAT DATANG</h2>
+          <p class="lead">Di Website Universitas Pasir Pengaraian.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END WELCOME -->
+
+  <!-- HISTORY -->
+  <section class="history py-5">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2>SAMBUTAN REKTOR</h2>
+        <p class="lead">Dr. Hardianto, M.Pd<br>Rektor Universitas Pasir Pengaraian.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="mb-4">
+            <p class="lead">Puji Syukur kami panjatkan kepada Allah SWT atas dikembangkannya website baru Universitas
+              Pasir Pengaraian. Website baru ini dikembangkan dalam rangka memberikan wahana yang lebih baik bagi
+              diseminasi kegiatan Universitas Negeri Padang, prestasi mahasiswa dan dosen serta berbagai informasi
+              tentang Universitas Pasir Pengaraian. Universitas Pasir Pengaraian memiliki potensi besar untuk menjadi
+              yang terbaik dalam menjalankan peran Tridharma Perguruan Tinggi. Dengan peningkatan yang berkelanjutan
+              (continuous improvement) dan dilakukan terus menerus dengan tetap berlandaskan pada prinsip-prinsip Good
+              University Governance dengan mengutamakan aspek transparansi, akuntabilitas, tanggung jawab, independensi,
+              dan keadilan. Good University Governance menjadi asas yang dipedomani oleh seluruh stakeholder dalam
+              rangka perwujudan tata kelola yang baik bagi sebuah perguruan tinggi.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="image/sambutan_rektor.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END HISTORY -->
+
+  <!-- BLOG -->
+  <section class="content bg-light mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 id="berita" class="display-4">Berita</h2>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-md-4">
+                  <div class="card mb-4">
+                    <span class="badge my-custom-badge"><a href="#ramadhan">ramadhan</a></span>
+                    <img src="image/berita/berita1.jpg" class="card-img-top" alt="Gambar">
+                    <div class="card-body">
+                      <p class="card-text"><small class="text-muted"><i class="fa fa-calendar-o"></i> 21 Maret
+                          2023</small></p>
+                      <h5 class="card-title"><a href="" class="text-dark text-decoration-none">Ramadhan Sebentar Lagi,
+                          Pimpinan UPP Ajak Mahasiswa Siapkan Hati dan Perkuat Iman</a></h5>
+                      <p class="card-text">PASIRPENGARAIAN - Tidak terasa bulan suci Ramadhan 1444 H sudah dekat. Tak
+                        disana...</p>
+                      <a href="#ramadhan" class="btn btn-success">Lanjut Baca</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-4">
+                    <span class="badge my-custom-badge"><a href="#upp">UPP</a></span>
+                    <img src="image/berita/berita2.jpg" class="card-img-top" alt="Gambar">
+                    <div class="card-body">
+                      <p class="card-text"><small class="text-muted"><i class="fa fa-calendar-o"></i> 16 Maret
+                          2023</small></p>
+                      <h5 class="card-title"><a href="" class="text-dark text-decoration-none">Inilah Capaian Kampus
+                          Kebanggaan Masyarakat Rohul Enam Bulan Terakhir</a></h5>
+                      <p class="card-text">PASIRPENGARAIAN –&nbsp;Universitas Pasir Pengaraian (UPP) saat ini memiliki
+                        19
+                        Progra...</p>
+                      <a href="#upp" class="btn btn-success">Lanjut Baca</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-4">
+                    <span class="badge my-custom-badge"><a href="#pmb">PMB</a></span>
+                    <img src="image/berita/berita3.jpg" class="card-img-top" alt="Gambar">
+                    <div class="card-body">
+                      <p class="card-text"><small class="text-muted"><i class="fa fa-calendar-o"></i> 15 Maret
+                          2023</small></p>
+                      <h5 class="card-title"><a href="" class="text-dark text-decoration-none">Per 9 Maret 2023, Ratusan
+                          Calon Maba UPP Telah Ambil Akun Pendaftaran</a></h5>
+                      <p class="card-text">PASIRPENGARAIAN –&nbsp;Sejak dibukanya pendaftaran pada Januari 2023 yang
+                        lalu...</p>
+                      <a href="#pmb" class="btn btn-success">Lanjut Baca</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-md-4">
+                  <div class="card mb-4">
+                    <span class="badge my-custom-badge"><a href="#upp2">UPP</a></span>
+                    <img src="image/berita/berita4.jpg" class="card-img-top" alt="Gambar">
+                    <div class="card-body">
+                      <p class="card-text"><small class="text-muted"><i class="fa fa-calendar-o"></i> 15 Maret
+                          2023</small></p>
+                      <h5 class="card-title"><a href="" class="text-dark text-decoration-none">UPP Raih Penghargaan
+                          Sebagai Mitra Strategis dari KPP Pratama Bangkinang</a></h5>
+                      <p class="card-text">PASIRPENGARAIAN –&nbsp;Universitas Pasir Pengaraian (UPP) Kabupaten Rokan
+                        Hulu</p>
+                      <a href="#upp_2" class="btn btn-success">Lanjut Baca</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-4">
+                    <span class="badge my-custom-badge"><a href="#fh">FH</a></span>
+                    <img src="image/berita/berita5.jpg" class="card-img-top" alt="Gambar">
+                    <div class="card-body">
+                      <p class="card-text"><small class="text-muted"><i class="fa fa-calendar-o"></i> 10 Maret
+                          2023</small></p>
+                      <h5 class="card-title"><a href="" class="text-dark text-decoration-none">Fakultas
+                          Hukum UPP Teken MoU PKPA Dengan DPN Peradi – Ikadin Pekanbaru</a></h5>
+                      <p class="card-text">PASIRPENGARAIAN –&nbsp;Fakultas Hukum Universitas Pasir Pengaraian (UPP) dan
+                        Dewan Pi...</p>
+                      <a href="#pmb" class="btn btn-success">Lanjut Baca</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-4">
+                    <span class="badge my-custom-badge"><a href="#fkip">FKIP</a></span>
+                    <img src="image/berita/berita6.jpg" class="card-img-top" alt="Gambar">
+                    <div class="card-body">
+                      <p class="card-text"><small class="text-muted"><i class="fa fa-calendar-o"></i> 9 Maret
+                          2023</small></p>
+                      <h5 class="card-title"><a href="" class="text-dark text-decoration-none">Sebanyak
+                          65 Mahasiswa di Yudisiumkan, Delfitra Rosa Pemuncak FKIP UPP 2023</a></h5>
+                      <p class="card-text">PASIRPENGARAIAN –&nbsp;Fakultas Keguruan dan Ilmu Pendidikan (FKIP)
+                        Universitas
+                        Pasir...</p>
+                      <a href="#pmb" class="btn btn-success">Lanjut Baca</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-md-4">
+                  <div class="card mb-4">
+                    <span class="badge my-custom-badge"><a href="#upp">UPP</a></span>
+                    <img src="image/berita/berita2.jpg" class="card-img-top" alt="Gambar">
+                    <div class="card-body">
+                      <p class="card-text"><small class="text-muted"><i class="fa fa-calendar-o"></i> 9 Maret
+                          2023</small></p>
+                      <h5 class="card-title"><a href="" class="text-dark text-decoration-none">Inilah
+                          Daftar Prodi dan Dosen Terbaik di Lingkungan FKIP Universitas Pasir Pengaraian (UPP)</a></h5>
+                      <p class="card-text">PASIRPENGARAIAN –&nbsp;Program Studi (Prodi) Pendidikan Olahraga dan
+                        Kesehatan
+                        pemena...</p>
+                      <a href="#pmb" class="btn btn-success">Lanjut Baca</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-4">
+                    <span class="badge my-custom-badge"><a href="#yudisium">Yudisium</a></span>
+                    <img src="image/berita/berita8.jpg" class="card-img-top" alt="Gambar">
+                    <div class="card-body">
+                      <p class="card-text"><small class="text-muted"><i class="fa fa-calendar-o"></i> 28 Februari
+                          2023</small></p>
+                      <h5 class="card-title"><a href="" class="text-dark text-decoration-none">Yudisium
+                          Angkatan V, Rektor UPP Harapkan Mahasiswa Teknik Informatika Jangan Nyerah..</a></h5>
+                      <p class="card-text">PASIRPENGARAIAN –&nbsp;Berjumlah 30 mahasiswa Program Studi (Prodi) Teknik
+                        Informatik...</p>
+                      <a href="#pmb" class="btn btn-success">Lanjut Baca</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-4">
+                    <span class="badge my-custom-badge"><a href="#upp">UPP</a></span>
+                    <img src="image/berita/berita9.jpg" class="card-img-top" alt="Gambar">
+                    <div class="card-body">
+                      <p class="card-text"><small class="text-muted"><i class="fa fa-calendar-o"></i> 20 Februari
+                          2023</small></p>
+                      <h5 class="card-title"><a href="" class="text-dark text-decoration-none">Jalin
+                          Silaturrahmi dengan SMAN 1 Rambah, 14 Siswa Langsung Diterima Jadi Mahasiswa
+                          Baru di UPP</a></h5>
+                      <p class="card-text">PASIRPENGARAIAN –&nbsp;Dalam rangka untuk meningkatkan jumlah mahasiswa dari
+                        tahun..</p>
+                      <a href="#pmb" class="btn btn-success">Lanjut Baca</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- END BLOG -->
+
+  <!-- SECTION PMB -->
+  <section class="pt-5" style="position: relative;">
+    <img src="image/ayogabungupp.png" class="img-fluid custom-height" alt="">
+    <div class="bg-overlay" data-style="10"></div>
+    <div class="container clearfix"
+      style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: #fff;">
+      <div class="heading-text heading-section mt-5 text-end">
+        <h1 style="color: #fff">Mau Kuliah ?</h1>
+        <p style="color: #fff">Ayo daftar di kampus Universitas Pasir Pangaraian Sekarang !!!</p>
+        <a class="btn btn-success" href="#pmbupp">Daftar Sekarang</a>
+      </div>
+    </div>
+  </section>
+  <!-- END SECTION PMB -->
+
+  <!-- MITRA -->
+  <section class="py-5">
+    <div class="container">
+      <div class="text-center pt-5">
+        <h1>Mitra</h1>
+        <p class="lead pb-5">Mitra kami yang luar biasa, dengan senang hati kami bekerja sama!</p>
+      </div>
+      <div id="clientLogos" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra1.png" alt="Mitra 1"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra2.png" alt="Mitra 2"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra3.png" alt="Mitra 3"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra4.png" alt="Mitra 4"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra5.png" alt="Mitra 5"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra6.png" alt="Mitra 6"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra7.png" alt="Mitra 1"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra8.png" alt="Mitra 2"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra9.png" alt="Mitra 3"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra10.png" alt="Mitra 4"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra11.png" alt="Mitra 5"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra12.png" alt="Mitra 6"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra13.png" alt="Mitra 1"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra14.png" alt="Mitra 2"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra15.png" alt="Mitra 3"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra16.png" alt="Mitra 4"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra1.png" alt="Mitra 5"></a>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-6">
+                <div class="text-center">
+                  <a href="#"><img src="image/mitra/mitra2.png" alt="Mitra 6"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tombol Navigasi (Opsional) -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#clientLogos" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#clientLogos" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- END MITRA -->
+
+  <!-- TESTIMONIAL CAROUSEL -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <div class="text-center pt-5">
+        <h1>ALUMNUS</h1>
+        <p class="lead">Apa kata alumnus kami ?</p>
+      </div>
+
+      <!-- Testimonials -->
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-2">
+                  <div class="testimonial-item">
+                    <img src="image/alumni.jpg" alt="Testimonial Image">
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="testimonial-item">
+                    <p>UPP Selalu Memberikan ruang kepada mahasiswa untuk mengembangkan kompetensi dan bakat.</p>
+                    <div class="col-lg-6">
+                      <span class="nama">VIA MERZA HARDIANTI, S.E</span>
+                    </div>
+                    <span class="karir">Protokoler Walikota Pekanbaru, Alumni Manajemen</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- END TESTIMONIAL CAROUSEL -->
+
+  <!-- DOSEN CAROUSEL -->
+  <section class="content bg-light mb-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 id="dosen" class="display-4 text-center pt-5">Dosen</h2>
+          <p class="lead text-center pb-5">Berikut adalah dosen dosen kami</p>
+        </div>
+        <div id="carouselDosenControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active mb-5">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <div class="col-md-3 col-sm-4 col-6">
+                  <div class="card h-100">
+                    <img src="image/foto_dosen.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                      <h3>Luth Fimawahib, M.Kom</h3>
+                      <span>luthfimawahib@upp.ac.id</span>
+                      <p class="mt-1">UPP jaya</p>
+                      <div class="d-flex justify-content-center mt-1">
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-facebook-f fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-twitter fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-instagram fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light" href="#">
+                          <i class="fa-regular fa-envelope fa-fw"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-6">
+                  <div class="card h-100">
+                    <img src="image/foto_dosen.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                      <h3>Hidayat, SE, MM</h3>
+                      <span>hidayat@upp.ac.id</span>
+                      <p class="mt-1">UPP Membangun Karakter</p>
+                      <div class="d-flex justify-content-center mt-1">
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-facebook-f fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-twitter fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-instagram fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light" href="#">
+                          <i class="fa-regular fa-envelope fa-fw"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-6">
+                  <div class="card h-100">
+                    <img src="image/foto_dosen.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                      <h3>ZULKIFLI, S.H.,M.H.,C.L.A</h3>
+                      <span>zulkifli@upp.ac.id</span>
+                      <p class="mt-1">Kampus teknopreneur yang mandiri</p>
+                      <div class="d-flex justify-content-center mt-1">
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-facebook-f fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-twitter fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-instagram fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light" href="#">
+                          <i class="fa-regular fa-envelope fa-fw"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-6">
+                  <div class="card h-100">
+                    <img src="image/foto_dosen.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                      <h3>Dr. Hardianto., M.Pd</h3>
+                      <span>hardianto@upp.ac.id</span>
+                      <p class="mt-1">Kampus pilihan terbaik di Rokan Hulu</p>
+                      <div class="d-flex justify-content-center mt-1">
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-facebook-f fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-twitter fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-instagram fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light" href="#">
+                          <i class="fa-regular fa-envelope fa-fw"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="carousel-item mb-5">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <div class="col-md-3 col-sm-4 col-6">
+                  <div class="card h-100">
+                    <img src="image/foto_dosen.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                      <h3>Lusi Eka Afri, M.Si</h3>
+                      <span>lusiekaafri@upp.ac.id</span>
+                      <p class="mt-1">Berprestasi dan mampu bersaing secara nasional</p>
+                      <div class="d-flex justify-content-center mt-1">
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-facebook-f fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-twitter fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-instagram fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light" href="#">
+                          <i class="fa-regular fa-envelope fa-fw"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-6">
+                  <div class="card h-100">
+                    <img src="image/foto_dosen.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                      <h3>SRI WULANDARI, SKM.MPH</h3>
+                      <span>sriwulandariandes@gmail.com</span>
+                      <p class="mt-1">Kampus hijau, kampus berprestasi</p>
+                      <div class="d-flex justify-content-center mt-1">
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-facebook-f fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-twitter fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-instagram fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light" href="#">
+                          <i class="fa-regular fa-envelope fa-fw"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-6">
+                  <div class="card h-100">
+                    <img src="image/foto_dosen.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                      <h3>Imam Rangga Bakti, M.Kom</h3>
+                      <span>imamranggabakti@gmail.com</span>
+                      <p class="mt-1">Berdaya saing tinggi mandiri dan berprestasi</p>
+                      <div class="d-flex justify-content-center mt-1">
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-facebook-f fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-twitter fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-instagram fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light" href="#">
+                          <i class="fa-regular fa-envelope fa-fw"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-6">
+                  <div class="card h-100">
+                    <img src="image/foto_dosen.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                      <h3>Hendri Maradona, M.Kom</h3>
+                      <span>hendrimaradona@upp.ac.id</span>
+                      <p class="mt-1">Bersama UPP Memajukan Industri Teknologi</p>
+                      <div class="d-flex justify-content-center mt-1">
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-facebook-f fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-twitter fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light me-2" href="#">
+                          <i class="fab fa-instagram fa-fw"></i>
+                        </a>
+                        <a class="btn btn-sm btn-light" href="#">
+                          <i class="fa-regular fa-envelope fa-fw"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselDosenControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselDosenControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- END DOSEN CAROUSEL -->
+
+  <!-- FOOTER -->
+  <footer id="footer" class="bg-light text-dark py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="widget">
+            <img src="image/upp_logo.png" alt="" class="mb-3">
+            <p class="mb-3 footer-custom">Universitas Pasir Pengaraian didirikan bertujuan menyiapkan peserta didik
+              menjadi anggota masyarakat yang beriman dan bertaqwa terhadap Allah SWT, berakhlaq mulia, percaya pada
+              diri sendiri, memiliki kemampuan akademik dan/atau menciptakan teori-teori baru dibidang ilmu pendidikan
+              dan keguruan maupun ilmu pengetahuan lain, mengembangkan dan menyebarluaskan ilmu pengetahuan tersebut,
+              serta mengupayakan pemanfaatannya untuk meningkatkan taraf kehidupan masyarakat dan kesejahteraan umat
+              manusia.</p>
+            <a href="#pmblink" class="btn btn-success" target="_blank">Gabung UPP</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="widget">
+            <h4 id="Informasi" class="widget-title ">Informasi kontak</h4>
+            <ul class="list">
+              <li>phone : <a href="#telephone">+627627393250 / 085265530483</a></li>
+              <li>email : <a href="#email">info@upp.ac.id</a></li>
+              <li>instagram : <a href="#ig" target="_blank">@universitaspasirpengaraian_</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-content mt-5">
+      <div class="container">
+        <div class="copyright-text text-center">
+          <script>
+            document.write(new Date().getFullYear())
+          </script> © Developed by <a href="#developer">Muhammad Sarwani</a> &amp; <a href="#sistemInformasi">Sistem
+            Informasi</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+
+  <a id="scrollTop" href="#" class="btn btn-light" style="bottom: 26px; opacity: 1; z-index: 199;">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
